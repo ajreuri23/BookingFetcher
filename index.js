@@ -23,8 +23,6 @@ async function checkBookingAvailability() {
         'accept-language': 'en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7',
         'content-type': 'application/json',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-        // Add the Cookie header from your original request
-        'Cookie': 'bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLblgO%2Fz4BDP5sdCRl179g1h0U3LT4u6lFQ6Y0sW%2B%2BLmGTo6Y%2BHwx1RptTheymHBlr8L%2FHfgMOiDA6QtO%2FLarX2Scd1iko7E%2BuDjsZPremxyzire%2BIuCaKF5NiIl84dAWKPDbVE3vEnZA%2BkXDZppgYnURs1a5NcNcF02%2BFKjhIwpqM%3D; bkng_sso_auth=CAIQ0+WGHxpmSEy8m5L3oDqhWTvyqJ/q1Dr3uAzlSxPRnevQdTB05cN2YuJdeEtQaEtS2Ux1G9Lk0oinsd4xr6rx1pzn94jAX+i9yGHBvhvBDEN1r5CzfYiJ2enoUAdacxmKH2D+FC64h+yELY7+; pcm_consent=analytical%3Dtrue%26countryCode%3DIL%26consentId%3Dcbd2bddb-d795-4547-8ba7-d83f03e3af49%26consentedAt%3D2025-04-09T08%3A30%3A39.386Z%26expiresAt%3D2025-10-06T08%3A30%3A39.386Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DM%26regulation%3Dnone%26legacyRegulation%3Dnone; pcm_personalization_disabled=0'
       },
       data: {
         "operationName": "AvailabilityCalendar",
