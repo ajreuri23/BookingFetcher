@@ -69,7 +69,7 @@ async function checkBookingAvailability() {
         console.log(`Checking availability for ${DATE_TO_CHECK}: ${targetDay.available ? 'Available' : 'Not Available'}`);
         
         // If available, send Telegram message
-        if (!targetDay.available) {
+        if (targetDay.available) {
           await sendTelegramMessage(`🎉 Good news! ${HOTEL_NAME} is now available for ${DATE_TO_CHECK}! 🏨 Book now: https://www.booking.com/hotel/il/ein-gedi-nature-lodge.html`);
           console.log('Telegram message sent successfully!');
         } else {
