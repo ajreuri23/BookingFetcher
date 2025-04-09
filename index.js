@@ -39,9 +39,7 @@ async function checkBookingAvailability() {
                 "amountOfDays": 1
               },
               "nbAdults": 2,
-              "nbRooms": 1,
-              "nbChildren": 1,
-              "childrenAges": [0]
+              "nbRooms": 1
             }
           }
         },
